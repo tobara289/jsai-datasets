@@ -39,3 +39,26 @@
 + co-author : 共著者
 + author : 筆頭著者
 + authors_org : 所属組織
+
+
+## Example
+```
+{
+	'[999-AA-999-01]' {
+		'url': 'https://***',
+ 		'category': '〇〇〇',
+ 		'sub_category': {'1': '〇〇〇', '2': '▲▲▲'},
+ 		'section_num': '[999-AA-999]',
+ 		'section_title': '×××',
+ 		'schedule_num': 999,
+ 		'like_num': 999,
+ 		'comment_num': 999,
+ 		'keywords': ['●●●', '■■■'],
+ 		'title': '◎◎◎',
+ 		'org': {'1': 'Univ. of □□□', '2': 'Univ. of △△△'},
+ 		'co-author': ['Bob'],
+ 		'author': 'Alice',
+ 		'authors_org': {'1': ['Alice'], '2': ['Bob']}
+	}
+}
+```
