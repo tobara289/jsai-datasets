@@ -3,7 +3,7 @@
 
 ```
 {
-	"section_num": {
+	"paper_num": {
 		"url": String Type,
 		"category": String Type,
 		"sub_category": Dict Type,
@@ -24,7 +24,8 @@
 }
 ```
 
-+ section_num : 発表番号
++ paper_num : 発表番号
++ section_num : セッション番号
 + url         : 発表内容参照URL
 + category    : 発表種別
 + sub_category : 発表区分リスト
