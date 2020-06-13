@@ -25,7 +25,7 @@
 ```
 
 + paper_num : 発表番号
-+ section_num : セッション番号
++ section_num : 区分番号
 + url         : 発表内容参照URL
 + category    : 発表種別
 + sub_category : 発表区分リスト
