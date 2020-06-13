@@ -3,7 +3,7 @@
 
 ```
 {
-	セッション番号: {
+	"section_num": {
 		"url": String Type,
 		"category": String Type,
 		"sub_category": Dict Type,
@@ -18,8 +18,23 @@
 		"co-author": List Type,
 		"author": String Type,
 		"authors_org": {
-			組織番号 : List Type
+			"org_num" : List Type
 		}
 	}
 }
 ```
+
++ section_num : 発表番号
++ url         : 発表内容参照URL
++ category    : 発表種別
++ sub_category : 発表区分リスト
++ section_title : 発表中区分
++ schedule_num : 聴講予定者
++ like_num : 評価数
++ comment_num : コメント数
++ keywords : キーワード
++ title : 発表タイトル
++ org : 組織名
++ co-author : 共著者
++ author : 筆頭著者
++ authors_org : 所属組織
