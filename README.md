@@ -1,12 +1,36 @@
 ## Note
 
-jsai2020.json についてのみ和名により組織名の表現揺れを統一した下記キーを追加
+jsai_base/jsai2020.json についてのみ和名により組織名の表現揺れを統一した下記キーを追加
 
 + org_jp : 組織名
 + authors_org_jp : 組織名に紐づく著者名
 
+J-STAGE の予稿集ベースのファイル作成
+
+
 
 ## Dataset
+
+### Proceeding base
+このデータセットは J-STAGE の予稿集を json 形式へ変換したものです。
+
+```
+{
+	"paper_num": {
+		"url": String Type,
+ 		"title": String Type,
+ 		"keywords": List Type,
+ 		"co-author": List Type,
+ 		"org": Dict Type,
+ 		"author_org": { 
+                	"org_num": List Type,
+ 		"abstract": None
+	}
+}
+```
+
+
+### Web page base
 このデータセットは人工知能学会全国大会の大会プログラムを json 形式へ変換したものです。
 
 ```
